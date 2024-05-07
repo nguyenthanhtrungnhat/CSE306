@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\TCPserverConsoleAppDF\TCPserverConsoleAppDF\bin\Debug\TCPserverConsoleAppDF.exe.config
+C:\Users\Dell\source\repos\TCPserverConsoleAppDF\TCPserverConsoleAppDF\bin\Debug\TCPserverConsoleAppDF.exe
+C:\Users\Dell\source\repos\TCPserverConsoleAppDF\TCPserverConsoleAppDF\bin\Debug\TCPserverConsoleAppDF.pdb
+C:\Users\Dell\source\repos\TCPserverConsoleAppDF\TCPserverConsoleAppDF\obj\Debug\TCPserverConsoleAppDF.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\TCPserverConsoleAppDF\TCPserverConsoleAppDF\obj\Debug\TCPserverConsoleAppDF.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\TCPserverConsoleAppDF\TCPserverConsoleAppDF\obj\Debug\TCPserverConsoleAppDF.exe
+C:\Users\Dell\source\repos\TCPserverConsoleAppDF\TCPserverConsoleAppDF\obj\Debug\TCPserverConsoleAppDF.pdb

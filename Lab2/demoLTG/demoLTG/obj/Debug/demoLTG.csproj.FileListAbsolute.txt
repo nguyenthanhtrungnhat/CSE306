@@ -1,0 +1,2 @@
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\demoLTG\demoLTG\obj\Debug\demoLTG.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\demoLTG\demoLTG\obj\Debug\demoLTG.csproj.CoreCompileInputs.cache

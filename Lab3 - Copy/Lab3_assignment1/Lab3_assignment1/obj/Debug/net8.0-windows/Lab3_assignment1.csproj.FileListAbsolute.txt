@@ -1,0 +1,17 @@
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\bin\Debug\net8.0-windows\Lab3_assignment1.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\bin\Debug\net8.0-windows\Lab3_assignment1.deps.json
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\bin\Debug\net8.0-windows\Lab3_assignment1.runtimeconfig.json
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\bin\Debug\net8.0-windows\Lab3_assignment1.dll
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\bin\Debug\net8.0-windows\Lab3_assignment1.pdb
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\Lab3_assignment1.Form1.resources
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\Lab3_assignment1.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\Lab3_assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\Lab3_assignment1.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\Lab3_assignment1.AssemblyInfo.cs
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\Lab3_assignment1.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\Lab3_assignment1.sourcelink.json
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\Lab3_assignment1.dll
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\refint\Lab3_assignment1.dll
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\Lab3_assignment1.pdb
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\Lab3_assignment1.genruntimeconfig.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_assignment1\Lab3_assignment1\obj\Debug\net8.0-windows\ref\Lab3_assignment1.dll

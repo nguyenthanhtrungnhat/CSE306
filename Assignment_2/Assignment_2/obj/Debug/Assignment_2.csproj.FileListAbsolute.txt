@@ -1,0 +1,10 @@
+C:\Users\Dell\source\repos\Assignment_2\Assignment_2\bin\Debug\Assignment_2.exe.config
+C:\Users\Dell\source\repos\Assignment_2\Assignment_2\bin\Debug\Assignment_2.exe
+C:\Users\Dell\source\repos\Assignment_2\Assignment_2\bin\Debug\Assignment_2.pdb
+C:\Users\Dell\source\repos\Assignment_2\Assignment_2\obj\Debug\Assignment_2.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Assignment_2\Assignment_2\obj\Debug\Assignment_2.Form1.resources
+C:\Users\Dell\source\repos\Assignment_2\Assignment_2\obj\Debug\Assignment_2.Properties.Resources.resources
+C:\Users\Dell\source\repos\Assignment_2\Assignment_2\obj\Debug\Assignment_2.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\Assignment_2\Assignment_2\obj\Debug\Assignment_2.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Assignment_2\Assignment_2\obj\Debug\Assignment_2.exe
+C:\Users\Dell\source\repos\Assignment_2\Assignment_2\obj\Debug\Assignment_2.pdb

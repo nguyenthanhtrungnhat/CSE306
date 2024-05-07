@@ -1,0 +1,10 @@
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_Server\TCP_Server\bin\Debug\TCP_Server.exe.config
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_Server\TCP_Server\bin\Debug\TCP_Server.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_Server\TCP_Server\bin\Debug\TCP_Server.pdb
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_Server\TCP_Server\obj\Debug\TCP_Server.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_Server\TCP_Server\obj\Debug\TCP_Server.Form1.resources
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_Server\TCP_Server\obj\Debug\TCP_Server.Properties.Resources.resources
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_Server\TCP_Server\obj\Debug\TCP_Server.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_Server\TCP_Server\obj\Debug\TCP_Server.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_Server\TCP_Server\obj\Debug\TCP_Server.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_Server\TCP_Server\obj\Debug\TCP_Server.pdb

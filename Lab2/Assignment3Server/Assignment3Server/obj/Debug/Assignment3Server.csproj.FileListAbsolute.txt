@@ -1,0 +1,10 @@
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\Assignment3Server\Assignment3Server\bin\Debug\Assignment3Server.exe.config
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\Assignment3Server\Assignment3Server\bin\Debug\Assignment3Server.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\Assignment3Server\Assignment3Server\bin\Debug\Assignment3Server.pdb
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\Assignment3Server\Assignment3Server\obj\Debug\Assignment3Server.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\Assignment3Server\Assignment3Server\obj\Debug\Assignment3Server.Form1.resources
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\Assignment3Server\Assignment3Server\obj\Debug\Assignment3Server.Properties.Resources.resources
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\Assignment3Server\Assignment3Server\obj\Debug\Assignment3Server.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\Assignment3Server\Assignment3Server\obj\Debug\Assignment3Server.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\Assignment3Server\Assignment3Server\obj\Debug\Assignment3Server.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\Assignment3Server\Assignment3Server\obj\Debug\Assignment3Server.pdb

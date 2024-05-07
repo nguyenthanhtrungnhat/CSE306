@@ -1,0 +1,10 @@
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_Assignment4\Lab3_Assignment4\bin\Debug\Lab3_Assignment4.exe.config
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_Assignment4\Lab3_Assignment4\bin\Debug\Lab3_Assignment4.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_Assignment4\Lab3_Assignment4\bin\Debug\Lab3_Assignment4.pdb
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_Assignment4\Lab3_Assignment4\obj\Debug\Lab3_Assignment4.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_Assignment4\Lab3_Assignment4\obj\Debug\Lab3_Assignment4.Form1.resources
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_Assignment4\Lab3_Assignment4\obj\Debug\Lab3_Assignment4.Properties.Resources.resources
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_Assignment4\Lab3_Assignment4\obj\Debug\Lab3_Assignment4.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_Assignment4\Lab3_Assignment4\obj\Debug\Lab3_Assignment4.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_Assignment4\Lab3_Assignment4\obj\Debug\Lab3_Assignment4.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab3\Lab3_Assignment4\Lab3_Assignment4\obj\Debug\Lab3_Assignment4.pdb

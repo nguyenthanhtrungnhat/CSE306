@@ -1,0 +1,10 @@
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_CLIENT\TCP_CLIENT\obj\Debug\TCP_CLIENT.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_CLIENT\TCP_CLIENT\obj\Debug\TCP_CLIENT.Form1.resources
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_CLIENT\TCP_CLIENT\obj\Debug\TCP_CLIENT.Properties.Resources.resources
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_CLIENT\TCP_CLIENT\obj\Debug\TCP_CLIENT.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_CLIENT\TCP_CLIENT\obj\Debug\TCP_CLIENT.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_CLIENT\TCP_CLIENT\bin\Debug\TCP_CLIENT.exe.config
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_CLIENT\TCP_CLIENT\bin\Debug\TCP_CLIENT.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_CLIENT\TCP_CLIENT\bin\Debug\TCP_CLIENT.pdb
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_CLIENT\TCP_CLIENT\obj\Debug\TCP_CLIENT.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\TCP_CLIENT\TCP_CLIENT\obj\Debug\TCP_CLIENT.pdb

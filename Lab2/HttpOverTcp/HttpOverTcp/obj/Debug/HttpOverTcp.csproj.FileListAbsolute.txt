@@ -1,0 +1,7 @@
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HttpOverTcp\HttpOverTcp\bin\Debug\HttpOverTcp.exe.config
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HttpOverTcp\HttpOverTcp\bin\Debug\HttpOverTcp.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HttpOverTcp\HttpOverTcp\bin\Debug\HttpOverTcp.pdb
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HttpOverTcp\HttpOverTcp\obj\Debug\HttpOverTcp.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HttpOverTcp\HttpOverTcp\obj\Debug\HttpOverTcp.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HttpOverTcp\HttpOverTcp\obj\Debug\HttpOverTcp.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HttpOverTcp\HttpOverTcp\obj\Debug\HttpOverTcp.pdb

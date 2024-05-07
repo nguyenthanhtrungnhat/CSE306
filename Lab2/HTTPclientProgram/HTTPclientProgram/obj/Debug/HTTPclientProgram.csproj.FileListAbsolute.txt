@@ -1,0 +1,7 @@
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HTTPclientProgram\HTTPclientProgram\bin\Debug\HTTPclientProgram.exe.config
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HTTPclientProgram\HTTPclientProgram\bin\Debug\HTTPclientProgram.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HTTPclientProgram\HTTPclientProgram\bin\Debug\HTTPclientProgram.pdb
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HTTPclientProgram\HTTPclientProgram\obj\Debug\HTTPclientProgram.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HTTPclientProgram\HTTPclientProgram\obj\Debug\HTTPclientProgram.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HTTPclientProgram\HTTPclientProgram\obj\Debug\HTTPclientProgram.exe
+C:\Users\Dell\Desktop\CSE306\GIT\CSE_306\Lab2\HTTPclientProgram\HTTPclientProgram\obj\Debug\HTTPclientProgram.pdb
