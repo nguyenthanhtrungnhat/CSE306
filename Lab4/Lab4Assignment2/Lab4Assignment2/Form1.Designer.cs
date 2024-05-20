@@ -141,6 +141,7 @@
             btnUpload.Text = "Upload";
             btnUpload.UseVisualStyleBackColor = true;
             btnUpload.UseWaitCursor = true;
+            btnUpload.Click += btnUpload_Click;
             // 
             // btDownload
             // 

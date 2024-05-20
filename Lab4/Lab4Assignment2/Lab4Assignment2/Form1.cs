@@ -145,6 +145,26 @@ namespace Lab4Assignment2
                 }
             }
         }
+
+        private void btnUpload_Click(object sender, EventArgs e)
+        {
+            if (txtFiles1.SelectedText != null)
+            {
+                string _path = txtTreeView.SelectedNode.Tag.ToString() + "\\"+txtFiles1.SelectedText;
+                FileInfo thisFile=new FileInfo(_path);
+                FtpWebRequest request = (FtpWebRequest)WebRequest.Create(new Uri(txtServer.Text+"/"+thisFile.Name));
+                request.Method = WebRequestMethods.Ftp.UploadFile;
+                request.Credentials = new NetworkCredential(txtUserName.Text,txtPassWord.Text);
+                byte[]bytes=File.ReadAllBytes(thisFile.FullName);
+                request.ContentLength = bytes.Length;
+                using (Stream reqStream = request.GetRequestStream())
+                {
+                    reqStream.Write(bytes, 0, bytes.Length);    
+                    reqStream.Close();
+                }
+                MessageBox.Show("Uploaded!");
+            }
+        }
     }
 }
 
