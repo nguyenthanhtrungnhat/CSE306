@@ -1,5 +1,4 @@
 using System.Net;
-using System.Windows.Forms;
 
 namespace Lab4Assignment2
 {
@@ -12,32 +11,38 @@ namespace Lab4Assignment2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string[] drives = Environment.GetLogicalDrives();
-            foreach (string drive in drives)
+            string[] driver = Environment.GetLogicalDrives();
+
+            foreach (string driver2 in driver)
             {
-                DriveInfo di = new DriveInfo(drive);
+                DriveInfo di = new DriveInfo(driver2);
                 int driveImage;
+
                 switch (di.DriveType)
                 {
                     case DriveType.CDRom:
                         driveImage = 3;
                         break;
+
                     case DriveType.Network:
                         driveImage = 6;
                         break;
+
                     case DriveType.NoRootDirectory:
                         driveImage = 8;
                         break;
+
                     case DriveType.Unknown:
                         driveImage = 9;
                         break;
+
                     default:
-                        driveImage = 2;
+                        driveImage = 10;
                         break;
                 }
-                TreeNode node = new TreeNode(drive.Substring(0, 1), driveImage, driveImage);
-                node.Tag = drive;
 
+                TreeNode node = new TreeNode(driver2.Substring(0, 1), driveImage, driveImage);
+                node.Tag = driver2;
 
                 if (di.IsReady == true)
                 {
@@ -53,14 +58,17 @@ namespace Lab4Assignment2
             {
                 if (e.Node.Nodes[0].Text == "..." && e.Node.Nodes[0].Tag == null)
                 {
-                    string[] dirs = Directory.GetDirectories(e.Node.Tag.ToString());
-                    foreach (string dir in dirs)
+                    string[] directory = Directory.GetDirectories(e.Node.Tag.ToString());
+
+                    foreach (var dir in directory)
                     {
                         DirectoryInfo di = new DirectoryInfo(dir);
                         TreeNode node = new TreeNode(di.Name, 0, 1);
+
                         try
                         {
                             node.Tag = dir;
+
                             if (di.GetDirectories().Count() > 0)
                             {
                                 node.Nodes.Add(null, "...", 0, 0);
@@ -81,66 +89,79 @@ namespace Lab4Assignment2
                         }
                     }
                 }
-            }
+            }   
 
         }
 
         private void TreeView_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
-            txtFolderLocal.Clear();
-            txtFile.Clear();
+            lbFolder.Items.Clear();
+            lbFile.Items.Clear();
             txtPath1.Text = e.Node.Tag.ToString();
+
             try
             {
                 string[] fileEntries = Directory.GetFiles(e.Node.Tag.ToString());
                 foreach (string fileEntry in fileEntries)
                 {
-                    txtFile.Text = Path.GetFileName(fileEntry);
+                    lbFile.Items.Add(Path.GetFileName(fileEntry));
                 }
-                string[] folderEntries = Directory.GetDirectories(e.Node.Tag.ToString());
-                foreach (string folderEntry in folderEntries)
+
+                string[] directoryEntries = Directory.GetDirectories(e.Node.Tag.ToString());
+                foreach (string directory in directoryEntries)
                 {
-                    txtFolderLocal.Text = Path.GetFileName(folderEntry);
+                    lbFolder.Items.Add(Path.GetFileName(directory));
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Directiory Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Directory Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            GetFileAndFolders(txtServer.Text, txtUserName.Text, txtPassWord.Text, "/");
+            GetFileAndFolders(txtServer.Text, txtUserName.Text, txtPassWord.Text, txtPath.Text);
         }
         private void GetFileAndFolders(string _server, string _user, string _pass, string _path)
         {
-            txtFiles1.Clear();
-            txtFolders1.Clear();
+            lbFolder1.Items.Clear();
+            lbFile1.Items.Clear();
+
             string url = _server + ":" + txtPort.Text + _path;
             FtpWebRequest request = (FtpWebRequest)WebRequest.Create(url);
+
             request.Method = WebRequestMethods.Ftp.ListDirectoryDetails;
             request.Credentials = new NetworkCredential(_user, _pass);
+
             FtpWebResponse response = (FtpWebResponse)request.GetResponse();
+
             Stream responseStream = response.GetResponseStream();
             StreamReader reader = new StreamReader(responseStream);
+
             string s = reader.ReadToEnd();
             txtStatus.Text = response.StatusDescription;
+
             reader.Close();
             response.Close();
-            string[] ls = s.Split(new string[] { "\r\n" }, StringSplitOptions.None);
-            foreach (string line in ls)
-            {
-                if (line.Length > 38)
-                {
-                    if (line.IndexOf("<DIR>", 0, 30) > 0)
-                    {
-                        txtFolders1.Text = line.Substring(39);
 
+            string[] ls = s.Split(new string[] { "\r\n" }, StringSplitOptions.None);
+
+            foreach (string l in ls)
+            {
+                if (l.Length > 38)
+                {
+                    if (l.IndexOf("<DIR>", 0, 38) > 0)
+                    {
+                        lbFolder1.Items.Add(l.Substring(39));
+                        txtPath.Text = l.Substring(39);
                     }
                     else
                     {
-                        txtFiles1.Text = line.Substring(39);
+                        lbFile1.Items.Add(l.Substring(39));
+                        txtPath.Text = l.Substring(39);
                     }
                 }
             }
@@ -148,23 +169,30 @@ namespace Lab4Assignment2
 
         private void btnUpload_Click(object sender, EventArgs e)
         {
-            if (txtFiles1.SelectedText != null)
+            if (lbFile.SelectedItems != null)
             {
-                string _path = txtTreeView.SelectedNode.Tag.ToString() + "\\"+txtFiles1.SelectedText;
-                FileInfo thisFile=new FileInfo(_path);
-                FtpWebRequest request = (FtpWebRequest)WebRequest.Create(new Uri(txtServer.Text+"/"+thisFile.Name));
+                string _path = txtTreeView.SelectedNode.Tag.ToString() + "\\"
+                    + lbFile.GetItemText(lbFile.SelectedItem);
+
+                FileInfo fi = new FileInfo(_path);
+                FtpWebRequest request = (FtpWebRequest)WebRequest.Create(
+                    new Uri(txtServer.Text + "/" + fi.Name));
+
                 request.Method = WebRequestMethods.Ftp.UploadFile;
-                request.Credentials = new NetworkCredential(txtUserName.Text,txtPassWord.Text);
-                byte[]bytes=File.ReadAllBytes(thisFile.FullName);
+                request.Credentials = new NetworkCredential(txtUserName.Text, txtPassWord.Text);
+                byte[] bytes = File.ReadAllBytes(fi.FullName);
                 request.ContentLength = bytes.Length;
+
                 using (Stream reqStream = request.GetRequestStream())
                 {
-                    reqStream.Write(bytes, 0, bytes.Length);    
+                    reqStream.Write(bytes, 0, bytes.Length);
                     reqStream.Close();
                 }
-                MessageBox.Show("Uploaded!");
+                MessageBox.Show("File uploaded");
             }
         }
+
+
     }
 }
 

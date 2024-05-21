@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RvBdy2qDHLNwd1TLh4l0QgYc2jsO20sD/n4B5nKj5m75GMIbG9EoCwro3w5dNolRVfIuoJ/h4MpNRk91IVbBrg==",
+  "dgSpecHash": "MGzsJe5sf8TaQkOYNDEg/nokAu7bi6rYc3+qrbGBSEWYMJpxIxq1uICmM3CycL+Q7a/Hfx0NXXRhsO7NMzyYhQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dell\\Desktop\\CSE306\\GIT\\ONL\\CSE306\\Lab4\\Lab4Assignment2\\Lab4Assignment2\\Lab4Assignment2.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Dell\\.nuget\\packages\\system.directoryservices\\8.0.0\\system.directoryservices.8.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

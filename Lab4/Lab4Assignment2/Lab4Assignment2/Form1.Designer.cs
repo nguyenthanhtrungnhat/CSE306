@@ -32,9 +32,6 @@
             txtUserName = new TextBox();
             txtPassWord = new TextBox();
             txtPort = new TextBox();
-            txtPath1 = new TextBox();
-            txtFolderLocal = new TextBox();
-            txtFile = new TextBox();
             btnLogin = new Button();
             btnUpload = new Button();
             btDownload = new Button();
@@ -43,8 +40,6 @@
             btnBack = new Button();
             txtStatus = new TextBox();
             txtPath = new TextBox();
-            txtFolders1 = new TextBox();
-            txtFiles1 = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -57,7 +52,12 @@
             label10 = new Label();
             label11 = new Label();
             label12 = new Label();
+            txtPath1 = new TextBox();
             txtTreeView = new TreeView();
+            lbFolder = new ListBox();
+            lbFile = new ListBox();
+            lbFolder1 = new ListBox();
+            lbFile1 = new ListBox();
             SuspendLayout();
             // 
             // txtServer
@@ -84,6 +84,7 @@
             txtPassWord.Name = "txtPassWord";
             txtPassWord.Size = new Size(100, 23);
             txtPassWord.TabIndex = 2;
+            txtPassWord.Text = "1";
             txtPassWord.UseWaitCursor = true;
             // 
             // txtPort
@@ -94,32 +95,6 @@
             txtPort.TabIndex = 3;
             txtPort.Text = "21";
             txtPort.UseWaitCursor = true;
-            // 
-            // txtPath1
-            // 
-            txtPath1.Location = new Point(81, 176);
-            txtPath1.Name = "txtPath1";
-            txtPath1.Size = new Size(304, 23);
-            txtPath1.TabIndex = 4;
-            txtPath1.UseWaitCursor = true;
-            // 
-            // txtFolderLocal
-            // 
-            txtFolderLocal.Location = new Point(237, 237);
-            txtFolderLocal.Multiline = true;
-            txtFolderLocal.Name = "txtFolderLocal";
-            txtFolderLocal.Size = new Size(136, 67);
-            txtFolderLocal.TabIndex = 5;
-            txtFolderLocal.UseWaitCursor = true;
-            // 
-            // txtFile
-            // 
-            txtFile.Location = new Point(237, 331);
-            txtFile.Multiline = true;
-            txtFile.Name = "txtFile";
-            txtFile.Size = new Size(136, 78);
-            txtFile.TabIndex = 7;
-            txtFile.UseWaitCursor = true;
             // 
             // btnLogin
             // 
@@ -199,24 +174,6 @@
             txtPath.Size = new Size(247, 23);
             txtPath.TabIndex = 15;
             txtPath.UseWaitCursor = true;
-            // 
-            // txtFolders1
-            // 
-            txtFolders1.Location = new Point(498, 198);
-            txtFolders1.Multiline = true;
-            txtFolders1.Name = "txtFolders1";
-            txtFolders1.Size = new Size(284, 67);
-            txtFolders1.TabIndex = 16;
-            txtFolders1.UseWaitCursor = true;
-            // 
-            // txtFiles1
-            // 
-            txtFiles1.Location = new Point(498, 330);
-            txtFiles1.Multiline = true;
-            txtFiles1.Name = "txtFiles1";
-            txtFiles1.Size = new Size(284, 79);
-            txtFiles1.TabIndex = 17;
-            txtFiles1.UseWaitCursor = true;
             // 
             // label1
             // 
@@ -338,6 +295,14 @@
             label12.Text = "Folders";
             label12.UseWaitCursor = true;
             // 
+            // txtPath1
+            // 
+            txtPath1.Location = new Point(81, 176);
+            txtPath1.Name = "txtPath1";
+            txtPath1.Size = new Size(304, 23);
+            txtPath1.TabIndex = 4;
+            txtPath1.UseWaitCursor = true;
+            // 
             // txtTreeView
             // 
             txtTreeView.Location = new Point(13, 237);
@@ -348,11 +313,51 @@
             txtTreeView.BeforeExpand += treeView_BeforeExpand;
             txtTreeView.NodeMouseClick += TreeView_NodeMouseClick;
             // 
+            // lbFolder
+            // 
+            lbFolder.FormattingEnabled = true;
+            lbFolder.ItemHeight = 15;
+            lbFolder.Location = new Point(237, 237);
+            lbFolder.Name = "lbFolder";
+            lbFolder.Size = new Size(148, 64);
+            lbFolder.TabIndex = 32;
+            // 
+            // lbFile
+            // 
+            lbFile.FormattingEnabled = true;
+            lbFile.ItemHeight = 15;
+            lbFile.Location = new Point(237, 330);
+            lbFile.Name = "lbFile";
+            lbFile.Size = new Size(148, 79);
+            lbFile.TabIndex = 33;
+            // 
+            // lbFolder1
+            // 
+            lbFolder1.FormattingEnabled = true;
+            lbFolder1.ItemHeight = 15;
+            lbFolder1.Location = new Point(499, 198);
+            lbFolder1.Name = "lbFolder1";
+            lbFolder1.Size = new Size(283, 64);
+            lbFolder1.TabIndex = 34;
+            // 
+            // lbFile1
+            // 
+            lbFile1.FormattingEnabled = true;
+            lbFile1.ItemHeight = 15;
+            lbFile1.Location = new Point(499, 330);
+            lbFile1.Name = "lbFile1";
+            lbFile1.Size = new Size(283, 79);
+            lbFile1.TabIndex = 35;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(812, 421);
+            Controls.Add(lbFile1);
+            Controls.Add(lbFolder1);
+            Controls.Add(lbFile);
+            Controls.Add(lbFolder);
             Controls.Add(txtTreeView);
             Controls.Add(label12);
             Controls.Add(label11);
@@ -366,8 +371,6 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(txtFiles1);
-            Controls.Add(txtFolders1);
             Controls.Add(txtPath);
             Controls.Add(txtStatus);
             Controls.Add(btnBack);
@@ -376,8 +379,6 @@
             Controls.Add(btDownload);
             Controls.Add(btnUpload);
             Controls.Add(btnLogin);
-            Controls.Add(txtFile);
-            Controls.Add(txtFolderLocal);
             Controls.Add(txtPath1);
             Controls.Add(txtPort);
             Controls.Add(txtPassWord);
@@ -397,9 +398,6 @@
         private TextBox txtUserName;
         private TextBox txtPassWord;
         private TextBox txtPort;
-        private TextBox txtPath1;
-        private TextBox txtFolderLocal;
-        private TextBox txtFile;
         private Button btnLogin;
         private Button btnUpload;
         private Button btDownload;
@@ -408,8 +406,6 @@
         private Button btnBack;
         private TextBox txtStatus;
         private TextBox txtPath;
-        private TextBox txtFolders1;
-        private TextBox txtFiles1;
         private Label label1;
         private Label label2;
         private Label label3;
@@ -422,6 +418,11 @@
         private Label label10;
         private Label label11;
         private Label label12;
+        private TextBox txtPath1;
         private TreeView txtTreeView;
+        private ListBox lbFolder;
+        private ListBox lbFile;
+        private ListBox lbFolder1;
+        private ListBox lbFile1;
     }
 }
